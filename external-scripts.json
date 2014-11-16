@@ -9,5 +9,14 @@
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-shipit",
-  "hubot-youtube"
+  "hubot-youtube",
+  "hubot-business-cat",
+  "hubot-fliptable",
+  "hubot-devops-reactions",
+  "hubot-http-status",
+  "hubot-tweets",
+  "hubot-seriouslyguys",
+  "hubot-dogeme",
+  "hubot-soon",
+  "hubot-darksky"
 ]
