@@ -1,6 +1,6 @@
 {
-  "name": "ne-web-hubot",
-  "version": "0.1.0",
+  "name": "bosops-hubot",
+  "version": "1.0.0",
   "private": true,
   "author": "Jeff Byrnes <thejeffbyrnes@gmail.com>",
   "description": "For all your GIF needs",
