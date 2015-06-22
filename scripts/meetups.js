@@ -14,13 +14,31 @@ module.exports = function(robot) {
     file_text = fs.readFileSync('lib/group_list.json').toString()
     groups = JSON.parse(file_text)
     var arrayLength = groups.length;
+    res.send("I know of the following groups:")
     for (var i = 0; i < arrayLength; i++) {
       res.send(groups[i]['name'])
     }
   });
 
-  // This will take a known meeting from the list and search for the latest
-  // event and give revelent details
+  // Write out a list of confrences that the bot knows about.
+  // To add a new confrence add it to conf_list.json.
+  //
+  robot.respond(/What confrences do you know about\?/i, function(res) {
+    var fs = require('fs');
+    var conf;
+    conf = res.match[1];
+
+    file_text = fs.readFileSync('lib/conf_list.json').toString()
+    confs = JSON.parse(file_text)
+    var arrayLength = confs.length;
+    res.send("I know of the following confences:")
+    for (var i = 0; i < arrayLength; i++) {
+      res.send(confs[i]['name'] + "   " + confs[i]['url'])
+    }
+  });
+
+  // This will take a known group from group_list.json and search for
+  // the latest event and give revelent details.
   robot.respond(/When is the next (.*) meetup\?/i, function(res) {
     var fs = require('fs');
     var meetup, api_call, api_key, meetup_id;
@@ -38,7 +56,11 @@ module.exports = function(robot) {
       }
     }
     if (meetup_id == '') {
-      res.send("I don't know anything about that group")
+      res.send("I don't know anything about that group.")
+      res.send("I know of the following groups:")
+      for (var i = 0; i < arrayLength; i++) {
+        res.send(groups[i]['name'])
+      }
     }
 
     this.exec = require('child_process').exec;
