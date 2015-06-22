@@ -7,7 +7,7 @@
 
 Return a list of groups that the bot knows about
 
-* `@hubot When is the next X meetup?
+* `@hubot When is the next X meetup?`
 
 X is equal to the name of a group from the first list.  This will return details on the next meetup scheduled for the group
 
