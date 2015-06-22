@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Boston Devops",
+        "url_name": "Boston-Devops",
+        "id": "2647542"
+    },
+    {
+        "name": "BOSTON #ODSC",
+        "url_name": "open-source-data-science",
+        "id": "10183152"
+    },
+    {
+        "name": "The Chelmsford Linux Meetup Group",
+        "url_name": "linux-393",
+        "id": "304994"
+    },
+    {
+        "name": "MetroWest Web Developers",
+        "url_name": "MetroWest-web-developers",
+        "id": "5038492"
+    },
+    {
+        "name": "Vagrant Users of Boston",
+        "url_name": "Vagrant-Boston",
+        "id": "13711262"
+    },
+    {
+        "name": "Boston Cloud Services - All things Cloud,  SaaS, PaaS, XaaS",
+        "url_name": "Boston-cloud-services",
+        "id": "1460349"
+    },
+    {
+        "name": "Chef-BOSTON(forusersofOpscodeChef)",
+        "url_name": "Chef-BOSTON",
+        "id": "3944192"
+    },
+    {
+        "name": "Docker Boston",
+        "url_name": "Docker Boston",
+        "id": "9636782"
+    }
+]
