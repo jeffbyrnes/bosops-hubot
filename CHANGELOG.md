@@ -6,9 +6,10 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 ## Unreleased][unreleased]
 
 ### Added
-- Added meetup task to get list of known groups
-- Added meetup task to get latest meetup from a known group
+- meetup task to get list of known groups
+- meetup task to get latest meetup from a known group
 - Updated Hubot metadata
+- confrence task, to list cool confrences
 
 ## [0.0.1]
 ### Added
