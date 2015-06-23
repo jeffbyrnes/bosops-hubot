@@ -6,6 +6,7 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 ## Unreleased][unreleased]
 
 ### Added
+- USENIX LISA and Velocity conferences
 - meetup task to get list of known groups
 - meetup task to get latest meetup from a known group
 - Updated Hubot metadata
