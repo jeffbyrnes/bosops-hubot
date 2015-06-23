@@ -20,23 +20,6 @@ module.exports = function(robot) {
     }
   });
 
-  // Write out a list of confrences that the bot knows about.
-  // To add a new confrence add it to conf_list.json.
-  //
-  robot.respond(/What confrences do you know about\?/i, function(res) {
-    var fs = require('fs');
-    var conf;
-    conf = res.match[1];
-
-    file_text = fs.readFileSync('lib/conf_list.json').toString()
-    confs = JSON.parse(file_text)
-    var arrayLength = confs.length;
-    res.send("I know of the following confences:")
-    for (var i = 0; i < arrayLength; i++) {
-      res.send(confs[i]['name'] + "   " + confs[i]['url'])
-    }
-  });
-
   // This will take a known group from group_list.json and search for
   // the latest event and give revelent details.
   robot.respond(/When is the next (.*) meetup\?/i, function(res) {
@@ -52,10 +35,10 @@ module.exports = function(robot) {
     for (var i = 0; i < arrayLength; i++) {
       if (groups[i]['name'] == meetup) {
         res.send("Looking up details for the latest " + meetup + " meetup")
-        meetup_id = groups[i]['id']
+        group_id = groups[i]['id']
       }
     }
-    if (meetup_id == '') {
+    if (group_id == '') {
       res.send("I don't know anything about that group.")
       res.send("I know of the following groups:")
       for (var i = 0; i < arrayLength; i++) {
@@ -65,7 +48,7 @@ module.exports = function(robot) {
 
     this.exec = require('child_process').exec;
 
-    api_call = "curl " + "\"https://api.meetup.com/2/events?key=" + api_key + "&sign=true&photo-host=public&group_id=" + meetup_id + "&page=20\"";
+    api_call = "curl " + "\"https://api.meetup.com/2/events?key=" + api_key + "&sign=true&photo-host=public&group_id=" + group_id + "&page=20\"";
     this.exec(api_call, function(error, stdout, stderror) {
       var out = JSON.parse(stdout);
       if (typeof out['results'][0] != 'undefined') {
