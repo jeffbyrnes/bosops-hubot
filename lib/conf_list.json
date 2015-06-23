@@ -22,5 +22,13 @@
     {
         "name": "Monitorama",
         "url": "http://monitorama.com/"
+    },
+    {
+        "name": "Velocity",
+        "url": "http://velocityconf.com/"
+    },
+    {
+        "name": "USENIX LISA",
+        "url": "http://usenix.org/lisa15/"
     }
 ]
