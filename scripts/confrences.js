@@ -17,6 +17,11 @@ module.exports = function(robot) {
     }
   });
 
+  // Write out any details about the conference that are known.  If the json
+  // file is present it will scrape it for data, if the file is not present
+  // then it will say no info has been published.  If you pass it an unknown
+  // conference, it will spit you out a list of ones it knows about.
+  //
   robot.respond(/What are the details of the (.*) conference\?/i, function(res) {
     var fs = require('fs');
     var conf;
@@ -41,7 +46,6 @@ module.exports = function(robot) {
         var conf_url = confs[i]['url']
         var cmd = "curl " +  conf_url + "/hubot_spec.json";
         this.exec(cmd, function(error, stdout, stderror) {
-          //var out = IsJsonString(stdout)
           if ( IsJsonString(stdout) ) {
             out = JSON.parse(stdout)
             res.send(out['conference']['name']);

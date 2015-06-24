@@ -15,6 +15,9 @@ X is equal to the name of a group from the first list.  This will return details
 
 Return a list of conferences and url's.  At some point it will do something more than that.
 
+* `@hubot What are the details of the X conference?`
+
+Return any details that have been published by the conference organizers.
 
 ### Adding New Groups
 
