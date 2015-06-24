@@ -1,26 +1,30 @@
 [
     {
         "name": "Devops Days Boston",
-        "url": "http://www.devopsdays.org/events/2015-boston/"
+        "url": "http://www.devopsdays.org/events/2015-boston"
     },
     {
         "name": "AutomaCon",
-        "url": "http://www.automacon.io/"
+        "url": "http://www.automacon.io"
     },
     {
         "name": "Hashiconf",
-        "url": "https://hashiconf.com/"
+        "url": "https://hashiconf.com"
     },
     {
         "name": "Chef Conf",
-        "url": "https://www.chef.io/chefconf/"
+        "url": "https://www.chef.io/chefconf"
     },
     {
         "name": "Puppet Conf",
-        "url": "https://puppetconf.com/"
+        "url": "https://puppetconf.com"
     },
     {
         "name": "Monitorama",
-        "url": "http://monitorama.com/"
+        "url": "http://monitorama.com"
+    },
+    {
+        "name": "Yieldbot",
+        "url": "https://staging.yieldbot.com"
     }
 ]
