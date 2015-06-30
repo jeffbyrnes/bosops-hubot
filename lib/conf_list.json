@@ -30,9 +30,5 @@
     {
         "name": "USENIX LISA",
         "url": "http://usenix.org/lisa15"
-    },
-    {
-        "name": "Yieldbot",
-        "url": "https://staging.yieldbot.com"
     }
 ]
