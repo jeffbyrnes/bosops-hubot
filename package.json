@@ -12,6 +12,7 @@
     "hubot-diagnostics": "0.0.1",
     "hubot-dogeme": "^1.0.0",
     "hubot-fliptable": "^1.2.0",
+    "hubot-forecast": "^0.5.0",
     "hubot-google-images": "^0.2.2",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.1",
@@ -31,8 +32,5 @@
   },
   "engines": {
     "node": "0.10.x"
-  },
-  "devDependencies": {
-    "hubot-forecast": "^0.5.0"
   }
 }
