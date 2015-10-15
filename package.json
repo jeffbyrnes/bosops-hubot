@@ -25,7 +25,7 @@
     "hubot-scripts": "^2.5.16",
     "hubot-seriouslyguys": "^1.0.0",
     "hubot-shipit": "^0.2.0",
-    "hubot-slack": "^3.2.1",
+    "hubot-slack": "^3.4.0",
     "hubot-soon": "^1.0.0",
     "hubot-tweets": "0.0.1",
     "hubot-youtube": "^1.0.1"
