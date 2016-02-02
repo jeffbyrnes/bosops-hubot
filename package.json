@@ -12,7 +12,7 @@
     "hubot-diagnostics": "0.0.1",
     "hubot-dogeme": "^1.0.0",
     "hubot-fliptable": "^1.2.0",
-    "hubot-forecast": "^0.5.0",
+    "hubot-forecast": "^0.5.1",
     "hubot-google-images": "^0.2.6",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.3",
