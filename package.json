@@ -6,7 +6,7 @@
   "description": "For all your GIF needs",
   "dependencies": {
     "hubot": "^2.18.0",
-    "hubot-business-cat": "^1.4.2",
+    "hubot-business-cat": "^1.4.3",
     "hubot-darksky": "^1.0.2",
     "hubot-devops-reactions": "^1.0.2",
     "hubot-diagnostics": "0.0.1",
