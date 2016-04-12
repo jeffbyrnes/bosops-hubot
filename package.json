@@ -28,7 +28,7 @@
     "hubot-slack": "^3.4.2",
     "hubot-soon": "^1.0.0",
     "hubot-tweets": "0.0.1",
-    "hubot-youtube": "^1.0.1"
+    "hubot-youtube": "^1.0.2"
   },
   "engines": {
     "node": "0.10.x"
