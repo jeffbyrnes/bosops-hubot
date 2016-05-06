@@ -5,7 +5,7 @@
   "author": "Jeff Byrnes <thejeffbyrnes@gmail.com>",
   "description": "For all your GIF needs",
   "dependencies": {
-    "hubot": "^2.18.0",
+    "hubot": "^2.19.0",
     "hubot-darksky": "^1.0.2",
     "hubot-devops-reactions": "^1.0.2",
     "hubot-diagnostics": "0.0.1",
