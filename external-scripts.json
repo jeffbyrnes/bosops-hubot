@@ -9,13 +9,11 @@
   "hubot-help",
   "hubot-heroku-keepalive",
   "hubot-maps",
-  "hubot-plusplus",
   "hubot-pugme",
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-seriouslyguys",
   "hubot-shipit",
-  "hubot-soon",
   "hubot-tweets",
   "hubot-youtube"
 ]
