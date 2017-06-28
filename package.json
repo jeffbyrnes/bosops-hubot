@@ -8,7 +8,7 @@
     "hubot": "^2.19.0",
     "hubot-darksky": "^1.0.2",
     "hubot-devops-reactions": "^1.0.2",
-    "hubot-diagnostics": "0.0.1",
+    "hubot-diagnostics": "0.0.2",
     "hubot-dogeme": "^1.0.0",
     "hubot-fliptable": "^1.2.0",
     "hubot-forecast": "^0.5.1",
