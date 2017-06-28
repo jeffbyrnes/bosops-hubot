@@ -13,7 +13,7 @@
     "hubot-fliptable": "^1.2.0",
     "hubot-forecast": "^0.5.1",
     "hubot-google-images": "^0.2.6",
-    "hubot-google-translate": "^0.2.0",
+    "hubot-google-translate": "^0.2.1",
     "hubot-help": "^0.2.0",
     "hubot-heroku-keepalive": "^1.0.1",
     "hubot-maps": "0.0.2",
