@@ -19,7 +19,7 @@
     "hubot-maps": "0.0.3",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.4",
-    "hubot-rules": "^0.1.0",
+    "hubot-rules": "^1.0.0",
     "hubot-scripts": "^2.17.2",
     "hubot-seriouslyguys": "^1.0.0",
     "hubot-shipit": "^0.2.0",
