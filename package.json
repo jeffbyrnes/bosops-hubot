@@ -10,7 +10,7 @@
     "hubot-devops-reactions": "^1.0.2",
     "hubot-diagnostics": "0.0.2",
     "hubot-dogeme": "^1.0.0",
-    "hubot-fliptable": "^1.2.0",
+    "hubot-fliptable": "^2.0.0",
     "hubot-forecast": "^0.5.1",
     "hubot-google-images": "^0.2.6",
     "hubot-google-translate": "^0.2.0",
