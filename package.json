@@ -5,6 +5,7 @@
   "author": "Jeff Byrnes <thejeffbyrnes@gmail.com>",
   "description": "For all your GIF needs",
   "dependencies": {
+    "coffee-script": "^1.12.7",
     "hubot": "^3.0.0",
     "hubot-darksky": "^1.0.2",
     "hubot-devops-reactions": "^1.0.2",
