@@ -6,7 +6,7 @@
   "description": "For all your GIF needs",
   "dependencies": {
     "coffee-script": "^1.12.7",
-    "hubot": "^3.0.0",
+    "hubot": "^3.1.1",
     "hubot-darksky": "^1.0.2",
     "hubot-diagnostics": "1.0.0",
     "hubot-dogeme": "^1.0.0",
@@ -23,7 +23,7 @@
     "hubot-scripts": "^2.17.2",
     "hubot-seriouslyguys": "^1.0.0",
     "hubot-shipit": "^0.2.0",
-    "hubot-slack": "^4.2.1",
+    "hubot-slack": "^4.5.5",
     "hubot-tweets": "0.0.1"
   },
   "engines": {
