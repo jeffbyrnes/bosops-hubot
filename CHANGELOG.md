@@ -5,6 +5,10 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 
 ## Unreleased][unreleased]
 
+## [2.0.0]
+
+- Updated to Node.js v10.x in `package.json`
+
 ### Added
 - USENIX LISA and Velocity conferences
 - meetup task to get list of known groups
