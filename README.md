@@ -1,5 +1,8 @@
-## Bosops Slack Hubot
+# Archived
 
+This repo is no longer maintained, and the bot driven by it has been deleted from Slack & Heroku.
+
+## Bosops Slack Hubot
 
 ### Task List
 
